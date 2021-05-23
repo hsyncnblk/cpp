@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+class programla
+{
+   private:
+      int degisken;
+   
+   public:
+     
+      void input_value()
+      {
+         cout << "Bir tamsayi gir\n";
+         cin >> degisken;
+      }
+     
+      void output_value()
+      {
+         cout << "Girilen degisken ";
+         cout << degisken << "\n";
+      }
+};
+
+main()
+{
+   programla nesne;
+   
+   nesne.input_value();
+   nesne.output_value();
+   
+   
+   return 0;
+}
